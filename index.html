@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Docker!</title>
+<style>
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body style="background-color:blue" >
+<h1 style="color:aqua">Welcome to Docker!</h1>
+<h2 style="color:aqua">This container was created on:</h2>
+
+<p style="color:aqua">Date/Time: <span id="datetime"></span></p>
+
+<script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+
+
+<p style="color:aqua"><em>Thank you for visiting!</em></p>
+</body>
+</html>
